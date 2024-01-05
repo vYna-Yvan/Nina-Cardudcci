@@ -1,6 +1,7 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	min-height: 100%;
 }
 * {
 	font-family: 'Inter';
@@ -69,6 +70,7 @@ body {
 
 .picture img {
 	width: 100%;
+	object-fit: cover;
 
 }
 #about-me {
